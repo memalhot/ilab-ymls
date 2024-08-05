@@ -1,0 +1,24 @@
+version: 2
+task_description: "Understanding Operating Systems"
+created_by: "meera"
+
+seed_examples:
+  - question: "What is the purpose of an operating system?"
+    answer: |
+      An operating system (OS) manages hardware resources and provides services for computer programs. It acts as an intermediary between users and the computer hardware, ensuring efficient operation and resource allocation.
+
+  - context: |
+      The history of UNIX is significant in the development of modern operating systems.
+    question: "How did UNIX influence modern operating systems?"
+    answer: |
+      UNIX introduced concepts such as multitasking, multi-user capabilities, and portability, which have become foundational in modern operating systems. Its design principles influenced the development of many subsequent OSes, including Linux and macOS.
+
+  - question: "Why are terminals still in use today?"
+    answer: |
+      Terminals provide a powerful interface for interacting with the operating system, especially for developers and system administrators. They offer efficient command-line tools and scripting capabilities, which are essential for automation and managing complex systems.
+
+  - context: |
+      Terminals have evolved significantly since their inception.
+    question: "What are some modern uses of terminals?"
+    answer: |
+      Modern terminals are used for tasks such as system administration, programming, and data analysis. They support advanced features like text editors, version control systems, and remote access to servers, making them indispensable tools in various technical fields.
