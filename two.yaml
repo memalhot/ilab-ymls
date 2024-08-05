@@ -1,0 +1,24 @@
+version: 2
+task_description: "systems"
+created_by: "meera"
+
+seed_examples:
+  - question: "What is a process in the context of an operating system?"
+    answer: |
+      A process is an instance of a running program that includes the program code and its current activity. It is managed by the operating system, which allocates resources such as CPU time and memory to ensure the process runs efficiently.
+
+  - context: |
+      Processes require careful management to ensure system stability and performance.
+    question: "How does an operating system manage processes?"
+    answer: |
+      The operating system uses scheduling algorithms to manage processes, allocating CPU time based on priorities and ensuring fair resource distribution. It handles process creation, execution, and termination, as well as inter-process communication and synchronization.
+
+  - question: "What is virtual memory and why is it important?"
+    answer: |
+      Virtual memory is a memory management technique that provides an "idealized abstraction of the storage resources" that are actually available on a given machine. It allows for the execution of processes that may not be completely in memory, enabling more efficient use of physical memory and isolation between processes.
+
+  - context: |
+      Virtual memory plays a crucial role in modern operating systems.
+    question: "How does virtual memory work?"
+    answer: |
+      Virtual memory works by using hardware and software to map virtual addresses to physical addresses. The operating system divides memory into pages, which are mapped onto physical memory or disk storage. This allows the system to use disk space as an extension of RAM, facilitating larger address spaces and process isolation.
